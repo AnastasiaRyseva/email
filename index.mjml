@@ -1,0 +1,152 @@
+<mjml>
+<mj-head>
+<mj-title>Письмо</mj-title>
+<mj-preview>Это Письмо</mj-preview>
+<mj-style>
+    h1 {
+        all: inherit;
+    }
+    .up {
+        font-family: Verdana;
+        color: #FFFFFF;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    .value {
+        font-family: Verdana;
+        color: #FFFFFF;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .advantages {
+        font-family: Verdana;
+        color: #FFFFFF;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 400;
+    }
+    .link-btn {
+        text-decoration: none;
+        color: #51ACFF;
+    }
+
+    @media (max-width: 600px) {
+        .bottom {
+            padding: 30px !important;
+        }
+        .bottom td {
+            padding: 10px !important;
+        }
+        .title h1 {
+					font-size: 30px !important;
+					line-height: 40px !important;
+				}
+    }
+</mj-style>
+</mj-head>
+  <mj-body width="640px">
+    <mj-section background-color="#313131" padding="0">
+        <mj-column>
+             <mj-image width="20px" align="center" padding="24px" src="http://work.maxgraph.ru/mail/mjml-letter/apple.png"></mj-image>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#141415" padding="0">
+        <mj-column>
+             <mj-text css-class="title" padding="60px 30px 49px 30px"
+                    align="center"
+                  color="#FFFFFF"
+                  font-size="40px"
+                  font-family="Verdana"
+                  line-height="49px"
+                  font-weight="700"
+                  >
+                  <h1>Our most stunning take on post-production. </h1>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#141415" padding="0">
+        <mj-column>
+             <mj-button href="#" css-class="link" align="center"
+                  color="#51ACFF"
+                  font-size="15px"
+                  font-family="Verdana"
+                  line-height="18px"
+                  font-weight="700"
+                  background-color="transparent"
+                  >
+                    Buy now
+                <img src="http://work.maxgraph.ru/mail/mjml-letter/arrow.png"/>
+            </mj-button>
+    </mj-section>
+    <mj-section background-color="#141415" padding="0">
+        <mj-column>
+             <mj-image align="center" padding="28px 56px 0 46px" src="http://work.maxgraph.ru/mail/mjml-letter/mac.png" />
+        </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="#141415" padding="0" padding-bottom="30px">
+        <mj-section padding="0 60px">
+            <mj-column>
+                <mj-text>
+                    <div class="up">up to</div>
+                    <div class="value">3.2x</div>
+                    <div class="advantages">faster render</div>
+                </mj-text>
+                <mj-image align="left" src="http://work.maxgraph.ru/mail/mjml-letter/line.png" />
+            </mj-column>
+           <mj-column>
+                <mj-text>
+                    <div class="up">up to</div>
+                    <div class="value">8+</div>
+                    <div class="advantages">streams of 4k video</div>
+                </mj-text>
+                <mj-image align="left" src="http://work.maxgraph.ru/mail/mjml-letter/line.png" />
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    <div class="up">up to</div>
+                    <div class="value">2x</div>
+                    <div class="advantages">i</div>
+                </mj-text>
+                <mj-image align="left" src="http://work.maxgraph.ru/mail/mjml-letter/line.png" />
+            </mj-column>
+        </mj-section>
+    </mj-wrapper>
+    <mj-section background-color="#313131" padding="48px 20px">
+        <mj-group width="150px">
+             <mj-column>
+                <mj-button href="#" background-color="transparent" padding="0" css-class="social" 
+                  >
+                    <img src="http://work.maxgraph.ru/mail/mjml-letter/fb.png"/>
+                </mj-button>
+             </mj-column>
+             <mj-column>
+                <mj-button href="#" background-color="transparent" padding="0" css-class="social" 
+                  >
+                    <img src="http://work.maxgraph.ru/mail/mjml-letter/tw.png"/>
+                </mj-button>
+             </mj-column>
+             <mj-column>
+                <mj-button href="#" background-color="transparent" padding="0" css-class="social" 
+                  >
+                    <img src="http://work.maxgraph.ru/mail/mjml-letter/in.png"/>
+                </mj-button>
+             </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section css-class="bottom" background-color="#313131" padding="0 20px">
+        <mj-column>
+            <mj-text font-family="Verdana" font-size="10px" font-weight="400" line-height="18px" color="#7D7D7D" align="center">
+                All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+            </mj-text>
+            <mj-text font-family="Verdana" font-size="10px" font-weight="400" line-height="18px" color="#7D7D7D" align="center">
+                This email was sent to hello@you.com because you indicated that you’d like to stay up to date on the latest features, services, support info and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails <a class="link-btn" href="#">here</a>
+            </mj-text>
+        </mj-column>
+        
+    </mj-section>
+  </mj-body>
+</mjml>
